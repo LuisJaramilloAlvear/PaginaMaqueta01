@@ -128,8 +128,36 @@ main {
     padding: 8px 20px;
 }
 
+/* Footer más compacto */
 footer {
     flex-shrink: 0;
+    font-size: 0.85rem; /* texto más pequeño */
+    padding: 20px 0;    /* ajusta altura si quieres */
+    background-color: #212529; /* mantengo tu bg oscuro */
+    color: #fff;
+    text-align: center;
+}
+
+footer p {
+    margin: 0 0 10px 0; /* separa un poco del bloque de íconos */
+}
+
+footer a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 36px;   /* más pequeño que antes */
+    height: 36px;  /* más pequeño que antes */
+    font-size: 16px; /* iconos más discretos */
+    color: #fff;
+    text-decoration: none;
+    margin: 0 5px;
+    border-radius: 50%;
+    transition: transform 0.3s;
+}
+
+footer a:hover {
+    transform: scale(1.1);
 }
 
 /* Responsive adjustments */
